@@ -5,7 +5,7 @@
 - 该程序利用Qt来进行图形界面的创建
 - 所有数据都在本地,不涉及数据库
 
-<img src="https://cdn.jsdelivr.net/gh/MengChangWang/Blog_Image@main/img/image-20240601180013445.png" alt="image-20240601180013445" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/MengChangWang/Blog_Image@main/img/image-20240601180013445.png" alt="image-20240601180013445" style="zoom:25%;" />
 
 ### 用户界面
 
