@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>image/icon/add.png</file>
+        <file>image/icon/add_pressed.png</file>
+        <file>image/icon/drink.png</file>
+        <file>image/icon/from.png</file>
+        <file>image/icon/from_p.png</file>
+        <file>image/icon/meat.png</file>
+        <file>image/icon/price.png</file>
+        <file>image/icon/price_p.png</file>
+        <file>image/icon/rice.png</file>
+        <file>image/icon/ser.png</file>
+        <file>image/icon/ser_p.png</file>
+        <file>image/icon/soup.png</file>
+        <file>image/icon/sub.png</file>
+        <file>image/icon/sub_pressed.png</file>
+        <file>image/icon/up.png</file>
+        <file>image/icon/up_p.png</file>
+        <file>image/icon/vegetables.png</file>
+        <file>image/icon/seafood.png</file>
+        <file>image/icon/snack.png</file>
+        <file>image/icon/takeaway.png</file>
+    </qresource>
+</RCC>

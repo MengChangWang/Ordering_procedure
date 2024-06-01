@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserInterfaceClass</class>
+ <widget class="QWidget" name="UserInterfaceClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>UserInterface</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>641</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true">QWidget#tabWidget{
+font: 20pt &quot;Microsoft Tai Le&quot;;
+}</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="vegetable">
+       <attribute name="icon">
+        <iconset resource="qOrderingSystem.qrc">
+         <normaloff>:/icon/image/icon/vegetables.png</normaloff>:/icon/image/icon/vegetables.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>素菜</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>641</width>
+          <height>451</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QTableWidget" name="Vegetable">
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="meat">
+       <attribute name="icon">
+        <iconset resource="qOrderingSystem.qrc">
+         <normaloff>:/icon/image/icon/meat.png</normaloff>:/icon/image/icon/meat.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>荤菜</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>641</width>
+          <height>451</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QTableWidget" name="Meat">
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="icon">
+        <iconset resource="qOrderingSystem.qrc">
+         <normaloff>:/icon/image/icon/seafood.png</normaloff>:/icon/image/icon/seafood.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>海鲜</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>641</width>
+          <height>451</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QTableWidget" name="Seafood">
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="beverage">
+       <attribute name="icon">
+        <iconset resource="qOrderingSystem.qrc">
+         <normaloff>:/icon/image/icon/drink.png</normaloff>:/icon/image/icon/drink.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>酒水</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>641</width>
+          <height>451</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QTableWidget" name="Drink">
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="icon">
+        <iconset resource="qOrderingSystem.qrc">
+         <normaloff>:/icon/image/icon/snack.png</normaloff>:/icon/image/icon/snack.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>小吃</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>641</width>
+          <height>451</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <widget class="QTableWidget" name="Snack">
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="else_2">
+       <attribute name="icon">
+        <iconset resource="qOrderingSystem.qrc">
+         <normaloff>:/icon/image/icon/rice.png</normaloff>:/icon/image/icon/rice.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>其他</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>641</width>
+          <height>451</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QTableWidget" name="something">
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string/>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string/>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>201</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> QPushButton
+ {
+
+    background-position: top center;
+   
+
+    text-align: bottom center;
+
+
+ }</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;点餐界面&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_7">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>140</y>
+         <width>129</width>
+         <height>365</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QToolButton" name="dinnerFood">
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::NoFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::PreventContextMenu</enum>
+          </property>
+          <property name="acceptDrops">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LayoutDirection::LeftToRight</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 12pt &quot;Microsoft JhengHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>堂食</string>
+          </property>
+          <property name="icon">
+           <iconset resource="qOrderingSystem.qrc">
+            <normaloff>:/icon/image/icon/ser_p.png</normaloff>:/icon/image/icon/ser_p.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>60</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <property name="autoRepeat">
+           <bool>false</bool>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+          </property>
+          <property name="autoRaise">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="order">
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::WheelFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 12pt &quot;Microsoft JhengHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>订单</string>
+          </property>
+          <property name="icon">
+           <iconset resource="qOrderingSystem.qrc">
+            <normaloff>:/icon/image/icon/from_p.png</normaloff>:/icon/image/icon/from_p.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>60</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+          </property>
+          <property name="autoRaise">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="takeaway">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="font">
+           <font>
+            <family>Microsoft JhengHei</family>
+            <pointsize>12</pointsize>
+            <italic>false</italic>
+            <bold>true</bold>
+            <kerning>true</kerning>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 12pt &quot;Microsoft JhengHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>外卖</string>
+          </property>
+          <property name="icon">
+           <iconset resource="qOrderingSystem.qrc">
+            <normaloff>:/icon/image/icon/takeaway.png</normaloff>:/icon/image/icon/takeaway.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>60</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+          </property>
+          <property name="autoRaise">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QToolButton" name="reset">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>68</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::FocusPolicy::WheelFocus</enum>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Microsoft JhengHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>重置</string>
+       </property>
+       <property name="icon">
+        <iconset resource="qOrderingSystem.qrc">
+         <normaloff>:/icon/image/icon/up_p.png</normaloff>:/icon/image/icon/up_p.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="qOrderingSystem.qrc"/>
+ </resources>
+ <connections/>
+</ui>
