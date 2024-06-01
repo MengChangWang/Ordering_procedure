@@ -5,7 +5,7 @@
 - 该程序利用Qt来进行图形界面的创建
 - 所有数据都在本地,不涉及数据库
 
-![image-20240601180013445](https://cdn.jsdelivr.net/gh/MengChangWang/Blog_Image@main/img/image-20240601180013445.png)
+<img src="https://cdn.jsdelivr.net/gh/MengChangWang/Blog_Image@main/img/image-20240601180013445.png" alt="image-20240601180013445" style="zoom:50%;" />
 
 ### 用户界面
 
@@ -20,3 +20,4 @@
 ![image-20240601180421196](https://cdn.jsdelivr.net/gh/MengChangWang/Blog_Image@main/img/image-20240601180421196.png)
 
 进入该界面需要输入账户密码,如果没有会提醒你进行创建,你可以在管理员界面进行重置密码,添加菜品,查看每个订单的情况 **查看所有订单的总收益 和 查看具体某一天的收益情况 的功能尚未完成**
+
